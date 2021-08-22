@@ -1,5 +1,11 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 * {
   padding: 0;
@@ -62,7 +68,7 @@ div.profil div.s1 {
   background-image: url('images/bg-pattern-card.svg');
 }
 
-div.profil div.s1 img{
+div.profil div.s1 img {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -89,7 +95,8 @@ div.profil div.s2 h2 {
   line-height: 30px;
 }
 
-h1, h3 {
+h1,
+h3 {
   font-weight: 700;
   color: hsl(229, 23%, 23%);
 }
@@ -107,7 +114,8 @@ div.s3 p {
   letter-spacing: 2PX;
 }
 
-h2, p {
+h2,
+p {
   font-weight: 400;
   color: hsl(227, 10%, 46%);
 }
@@ -117,9 +125,9 @@ div.profil div.s3 {
   flex-grow: 1;
   display: grid;
   width: 100%;
-  grid-template-columns:100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
   grid-template-rows: 2fr 2fr;
-  grid-template-areas: 
+  grid-template-areas:
     "hfirst hsecond hthird"
     "pfirst psecond pthird";
   background-color: white;
@@ -150,12 +158,13 @@ div.s3 p:nth-of-type(3) {
   grid-area: pthird;
 }
 
-    @media(min-width:1000px) and (orientation: landscape) {
+@media(min-width:1000px) and (orientation: landscape) {
 
-    section.pudlo svg.tlo1 {
-    transform: translate(-50%, -50%);
-    }
-    section.pudlo svg.tlo2 {
-    transform: translate(50%, 50%);
-    }
+  section.pudlo svg.tlo1 {
+    transform: translate(-30%, -50%);
+  }
+
+  section.pudlo svg.tlo2 {
+    transform: translate(30%, 50%);
+  }
 }

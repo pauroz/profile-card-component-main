@@ -9,8 +9,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Screenshot](#screenshot)
 - [My process](#my-process)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -20,8 +18,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
+- My solution fot landscape
 ![My solution fot landscape](./design/Landscape.png)
 
+- My solution fot portrait
 ![My solution fot portrait](./design/Portrait.png)
 ![](./screenshot.jpg)
 
