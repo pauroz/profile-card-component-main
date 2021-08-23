@@ -61,7 +61,7 @@ div.profil {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  box-shadow: 0.1em 0.1em 2em 0.1em rgb(0, 0, 0, .5);
+  box-shadow: 1em 1em 5em .1em rgb(0, 0, 0, .5);
 }
 
 div.profil div.s1 {
